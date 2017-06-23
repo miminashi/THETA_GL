@@ -203,6 +203,7 @@ var _theta_gl = function() {
           material1
       );
 
+      mesh1.rotation.z = Math.PI/2;
       mesh1.scale.set(0.1, 0.1, 0.1);
       mesh1.position.set(0, 0, 0).normalize();
       scene.add(mesh1);
@@ -227,6 +228,7 @@ var _theta_gl = function() {
           material2
       );
 
+      mesh2.rotation.z = Math.PI/2;
       mesh2.scale.set(0.1, 0.1, 0.1);
       mesh2.position.set(0, 0, 0).normalize();
       scene.add(mesh2);
