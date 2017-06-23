@@ -23,11 +23,12 @@
     <input type="checkbox" id="sense_orientation_check" _not_checked="checked" onclick="toggleSenseOrientation()">Sense Orientation</input>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
   <script src="js/theta_gl.js"></script>
   <script type="text/javascript">
     function startViewer() {
-      var url = 'mov/theta1.m4v'
+      // var url = 'mov/theta1.m4v'
+      var url = 'mov/insta360air.m4v'
       THETA_GL.setVideoSrc(url, /* loopFlag */ true);
       THETA_GL.startAnimate();
     }
